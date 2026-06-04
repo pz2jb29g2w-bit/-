@@ -1,6 +1,5 @@
 import Foundation
 
-@MainActor
 final class PlanGeneratorViewModel: ObservableObject {
     @Published var isGenerating: Bool = false
 

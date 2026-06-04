@@ -3,7 +3,6 @@ import SwiftUI
 import SwiftData
 import Combine
 
-@MainActor
 final class WorkoutViewModel: ObservableObject {
     @Published var muscleStats: [MuscleGroup: MuscleStats] = [:]
     @Published var currentPlan: WorkoutPlan?
