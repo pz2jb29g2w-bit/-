@@ -349,7 +349,7 @@ struct ExerciseRow: View {
             HStack {
                 Text(exercise.primaryMuscles.map { $0.shortName }.joined(separator: "・"))
                     .font(.caption)
-                    .foregroundStyle(.accentColor)
+                    .foregroundStyle(.tint)
                 Text("·")
                     .foregroundStyle(.secondary)
                 Text(exercise.equipment)

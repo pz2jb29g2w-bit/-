@@ -88,7 +88,7 @@ struct WorkoutPlanView: View {
                             .padding(.horizontal, 8)
                             .padding(.vertical, 3)
                             .background(Color.accentColor.opacity(0.12))
-                            .foregroundStyle(.accentColor)
+                            .foregroundStyle(.tint)
                             .clipShape(Capsule())
                     }
                 }
@@ -182,7 +182,7 @@ struct WorkoutPlanView: View {
             if let ex = exercise {
                 NavigationLink(destination: ExerciseDetailView(exercise: ex)) {
                     Image(systemName: "info.circle")
-                        .foregroundStyle(.accentColor)
+                        .foregroundStyle(.tint)
                 }
                 .buttonStyle(.plain)
             }
