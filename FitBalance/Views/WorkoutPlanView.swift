@@ -87,7 +87,7 @@ struct WorkoutPlanView: View {
                             .fontWeight(.medium)
                             .padding(.horizontal, 8)
                             .padding(.vertical, 3)
-                            .background(Color.accentColor.opacity(0.12))
+                            .background(Color.blue.opacity(0.12))
                             .foregroundStyle(.tint)
                             .clipShape(Capsule())
                     }
